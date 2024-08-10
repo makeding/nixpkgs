@@ -22859,6 +22859,8 @@ with pkgs;
 
   mp4v2 = callPackage ../development/libraries/mp4v2 { };
 
+  mp4fpsmod = callPackage ../tools/video/mp4fpsmod { };
+
   libmpc = callPackage ../development/libraries/libmpc { };
 
   mpich = callPackage ../development/libraries/mpich {
